@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>EasyMath — 10-сынып Сыртқы Емтиханына Дайындық</title>
+
+   <!-- Google Fonts: Science Gothic & Montserrat -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Science+Gothic:wght@100..900&family=Ubuntu+Mono:wght@400;700&display=swap"
+      rel="stylesheet">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+   <!-- Favicon -->
+   <link rel="icon" href="assets/images/logo.png" type="image/png">
+</head>
+
+<body>
+
+   <!-- HEADER -->
+   <header>
+      <div class="logo-container">
+         <a href="#">
+            <img src="assets/images/logo.png" alt="EasyMath Logo" class="logo-img">
+            <span class="logo-text">
+               <span class="brand-easy">Easy</span><span class="brand-math">Math</span>
+            </span>
+         </a>
+      </div>
+
+      <nav class="nav-menu">
+         <a href="#about" data-i18n="nav_about">Біз туралы</a>
+         <a href="#how-it-works" data-i18n="nav_how">Қалай өтеді</a>
+         <a href="#pricing" data-i18n="nav_pricing">Тарифтер</a>
+      </nav>
+
+      <div class="header-actions">
+         <!-- Тіл батырмалары -->
+         <div class="lang-switch">
+            <button type="button" class="lang-btn active" data-lang="kk">ҚАЗ</button>
+            <span class="lang-divider">|</span>
+            <button type="button" class="lang-btn" data-lang="ru">РУС</button>
+         </div>
+
+         <!-- Ноутбук / Десктоп нұсқасы -->
+         <div class="header-cta desktop-cta">
+            <a href="#register" class="nav-btn" data-i18n="nav_cta">Жазылу</a>
+         </div>
+      </div>
+   </header>
+
+   <!-- HERO SECTION -->
+   <section id="hero">
+      <div class="hero-container">
+         <!-- Сол жақ: Мәтіндер -->
+         <div class="hero-text">
+            <div class="hero-badge">
+               <span class="badge-icon">★</span>
+               <span data-i18n="hero_badge">10-сынып Сыртқы Емтиханы</span>
+            </div>
+            <h1 data-i18n="hero_title">Қиын емтиханды оңай <span class="text-gold">A*</span>-ға айналдыр</h1>
+            <p data-i18n="hero_desc">
+               143/160 (A*) және 128/160 (A) жинаған сарапшылардан 7-10 сынып математикасын оңай меңгер.
+            </p>
+            <div class="hero-btns">
+               <a href="#pricing" class="btn-primary" data-i18n="hero_btn_main">Курсты таңдау</a>
+               <a href="#demo" class="btn-outline" data-i18n="hero_btn_demo">Демо сабақ</a>
+            </div>
+         </div>
+
+         <!-- Оң жақ: Интерактивті График Карточкасы -->
+         <div class="hero-visual">
+            <div class="math-card">
+               <div class="card-header">
+                  <span class="formula-title">f(x) = A*</span>
+                  <span class="grade-tag">Top 1%</span>
+               </div>
+
+               <div class="chart-container">
+                  <svg viewBox="0 0 200 100" class="chart-svg">
+                     <path d="M 10 80 Q 60 70, 100 40 T 190 10" class="chart-line" />
+                     <circle cx="190" cy="10" r="5" class="chart-point" />
+                  </svg>
+               </div>
+
+               <div class="card-footer">
+                  <div class="stat-item">
+                     <span class="stat-num">★/160</span>
+                     <span class="stat-label">Max Score</span>
+                  </div>
+                  <div class="badge-star">★</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- ABOUT SECTION -->
+   <section id="about">
+      <div class="about-container">
+         <div class="section-header">
+            <span class="section-badge" data-i18n="about_badge">Команда</span>
+            <h2 class="glowing-title" data-i18n="about_title">Біз күрделі тақырыптарды жеңілдеткіміз келеді</h2>
+            <p class="section-desc" data-i18n="about_subtitle">Емтиханнан жоғары балл жинаған және оқытуда
+               визуализацияны қолданатын сарапшылар</p>
+         </div>
+
+         <div class="team-grid">
+            <!-- Бауыржан ағай -->
+            <div class="mentor-card">
+               <div class="mentor-img-box">
+                  <img src="assets/images/bauyrzhan.jpg" alt="Бауыржан ағай">
+                  <a href="https://www.instagram.com/bau_yerzh/" target="_blank" class="insta-btn"
+                     aria-label="Instagram">
+                     <svg class="insta-icon" viewBox="0 0 24 24">
+                        <path
+                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="mentor-content">
+                  <div class="mentor-top-wrapper">
+                     <div class="mentor-left">
+                        <span class="mentor-tag">KZ MENTOR</span>
+                        <h3 class="mentor-name" data-i18n="bauyrzhan_name">Бауыржан ағай</h3>
+                        <p class="mentor-subtitle">Math Teacher</p>
+                        <span class="pill-badge pill-blue">128/160 (A)</span>
+                     </div>
+                     <div class="mentor-right">
+                        <ul class="mentor-list">
+                           <li data-i18n="bauyrzhan_li1">2 жылдық репетиторлық тәжірибе</li>
+                           <li data-i18n="bauyrzhan_li2">Визуализациямен түсіндіру</li>
+                           <li data-i18n="bauyrzhan_li3">Соңғы 2 жылдағы математика балым: 97%</li>
+                           <li>
+                              <span data-i18n="bauyrzhan_proj_label">Жоба:</span> <a href="#quote-bauyrzhan"
+                                 class="glowing-link">«Math Beyond Borders» 🔥</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div id="quote-bauyrzhan" class="quote-container">
+                     <span class="quote-label" data-i18n="quote_about_proj">Жоба туралы:</span>
+                     <blockquote class="mentor-quote" data-i18n="bauyrzhan_quote">
+                        «Math Beyond Borders» жобасы — бұл математикалық дайындық деңгейін арттырып, МЭСК емтиханына
+                        сенімді келуге бағытталған. Жоба жүйелі жұмыс істеуге және стандартты мектеп бағдарламасынан тыс
+                        күрделі есептерді шешуге дайын оқушыларға арналған.
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Әлинұр ағай -->
+            <div class="mentor-card">
+               <div class="mentor-img-box">
+                  <img src="assets/images/alinur.jpg" alt="Әлинұр ағай">
+                  <a href="https://www.instagram.com/kelmenger.math/" target="_blank" class="insta-btn"
+                     aria-label="Instagram">
+                     <svg class="insta-icon" viewBox="0 0 24 24">
+                        <path
+                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="mentor-content">
+                  <div class="mentor-top-wrapper">
+                     <div class="mentor-left">
+                        <span class="mentor-tag">KZ MENTOR</span>
+                        <h3 class="mentor-name" data-i18n="alinur_name">Әлинұр ағай</h3>
+                        <p class="mentor-subtitle">Vis Expert</p>
+                        <span class="pill-badge pill-purple">143/160 (A*)</span>
+                     </div>
+                     <div class="mentor-right">
+                        <ul class="mentor-list">
+                           <li data-i18n="alinur_li1">Визуализация сарапшысы</li>
+                           <li data-i18n="alinur_li2">Интерактив арқылы түсіндіру</li>
+                           <li data-i18n="alinur_li3">Соңғы 2 жылдағы математика балым: 97%</li>
+                           <li>
+                              <span data-i18n="alinur_proj_label">Жоба:</span> <a href="#quote-alinur"
+                                 class="glowing-link link-purple">@kelmenger.math ⚡</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div id="quote-alinur" class="quote-container">
+                     <span class="quote-label" data-i18n="quote_mission">Жоба миссиясы:</span>
+                     <blockquote class="mentor-quote" data-i18n="alinur_quote">
+                        Kelmenger — қазақ тілді аудиторияға математика бойынша сапалы визуализациялар мен терең контент
+                        ұсынып, жастардың математикаға болған құштарлығын ояту үшін ашылған жоба.
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Данияр ағай -->
+            <div class="mentor-card">
+               <div class="mentor-img-box">
+                  <img src="assets/images/daniyar.jpg" alt="Данияр ағай">
+                  <a href="https://www.instagram.com/dnk_tmr/" target="_blank" class="insta-btn" aria-label="Instagram">
+                     <svg class="insta-icon" viewBox="0 0 24 24">
+                        <path
+                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="mentor-content">
+                  <div class="mentor-top-wrapper">
+                     <div class="mentor-left">
+                        <span class="mentor-tag">RU MENTOR</span>
+                        <h3 class="mentor-name" data-i18n="daniyar_name">Данияр ағай</h3>
+                        <p class="mentor-subtitle">Math Teacher</p>
+                        <span class="pill-badge pill-teal">110/160</span>
+                     </div>
+                     <div class="mentor-right">
+                        <ul class="mentor-list">
+                           <li data-i18n="daniyar_li1">2 жылдық репетиторлық тәжірибе</li>
+                           <li data-i18n="daniyar_li2">Шынайы өмірдегі мысалдармен түсіндіру</li>
+                           <li data-i18n="daniyar_li3">Соңғы 2 жылдағы математика балым: 92%</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="quote-container">
+                     <span class="quote-label" data-i18n="quote_teaching_style">Оқыту тәсілі:</span>
+                     <blockquote class="mentor-quote" data-i18n="daniyar_quote">
+                        Математика — құрғақ формулалар емес. Кез келген күрделі теореманы күнделікті өмірдегі заттармен
+                        шендестіріп түсіндіргенде, оқушы тақырыпты жаттамайды, оны сезінеді.
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Әділет ағай -->
+            <div class="mentor-card">
+               <div class="mentor-img-box">
+                  <img src="assets/images/adilet.jpg" alt="Әділет ағай">
+                  <a href="https://www.instagram.com/ersa1yyn/" target="_blank" class="insta-btn"
+                     aria-label="Instagram">
+                     <svg class="insta-icon" viewBox="0 0 24 24">
+                        <path
+                           d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                     </svg>
+                  </a>
+               </div>
+               <div class="mentor-content">
+                  <div class="mentor-top-wrapper">
+                     <div class="mentor-left">
+                        <span class="mentor-tag">FOUNDER</span>
+                        <h3 class="mentor-name" data-i18n="adilet_name">Әділет ағай</h3>
+                        <p class="mentor-subtitle" data-i18n="adilet_sub">Куратор</p>
+                        <span class="pill-badge pill-orange">Grade B</span>
+                     </div>
+                     <div class="mentor-right">
+                        <ul class="mentor-list">
+                           <li data-i18n="adilet_li1">Оқу процесін толық бақылау мен қолдау</li>
+                           <li data-i18n="adilet_li2">Жүйелі тәртіп пен бақылау</li>
+                           <li data-i18n="adilet_li3">Соңғы 2 жылдағы математика балым: 89%</li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="quote-container">
+                     <span class="quote-label" data-i18n="quote_mission">Жоба миссиясы:</span>
+                     <blockquote class="mentor-quote" data-i18n="adilet_quote">
+                        Біздің мақсат — тек формула жаттату емес, оқушыға жүйелі тәртіп пен сенімділік ұялату. Әр
+                        оқушының нәтижесі мен тәртібі менің жеке бақылауымда болады.
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- COURSE FORMAT SECTION -->
+   <section id="how-it-works">
+      <div class="format-container">
+
+         <div class="section-header">
+            <span class="section-badge" data-i18n="format_badge">Оқу форматы</span>
+            <h2 class="glowing-title" data-i18n="format_title">Курс қалай өтеді?</h2>
+            <p class="section-desc" data-i18n="format_desc">Максималды нәтижеге жетуге арналған жүйелі білім беру
+               форматы</p>
+         </div>
+
+         <div class="format-grid">
+            <!-- Card 1 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-blue">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card1_title">7-10 сынып PDF материалдары</h3>
+               <p data-i18n="card1_desc">Әр тақырып бойынша арнайы дайындалған конспектілер, формулалар жинағы және
+                  конспект-дәптерлер.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-purple">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 9 7-4.5V16.5L12 12zm-7-4.5 7 4.5-7 4.5V7.5z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card2_title">Тақырыпты түсіндіру видеолары</h3>
+               <p data-i18n="card2_desc">Күрделі теориялық материалдарды қарапайым әрі түсінікті тілде талдайтын қысқа
+                  видео-сабақтар.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-gold">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 8 2 1.5-2 1.5V11zm-4-1.5L13.5 12 11 13.5V9.5zM7 8h2v8H7V8z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card3_title">Есеп талдау видео сабақтары</h3>
+               <p data-i18n="card3_desc">Әртүрлі деңгейдегі есептердің практикалық шешу жолдары мен лайфхактары
+                  көрсетілген бейнежазбалар.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-teal">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card4_title">Аптасына 3 рет онлайн сабақ</h3>
+               <p data-i18n="card4_desc">Куратормен тікелей эфирде сұрақ-жауап, күрделі тақырыптарды ашу және кері
+                  байланыс жасау.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-orange">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14.5-5-5 1.41-1.41L12 14.67l7.59-7.59L21 8.5l-9 9z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card5_title">Прогресс бақылау мен кеңестер</h3>
+               <p data-i18n="card5_desc">Үнемі тест тапсырмаларын тексеру, даму динамикасын қадағалау және жеке
+                  рекомендациялар беру.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="format-card">
+               <div class="card-icon-box icon-blue-dark">
+                  <svg viewBox="0 0 24 24" class="format-icon">
+                     <path
+                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                  </svg>
+               </div>
+               <h3 data-i18n="card6_title">Жеке тәлімгерлік (Менторлық)</h3>
+               <p data-i18n="card6_desc">Оқу барысында пайда болған кез келген сұрақ бойынша жеке көмек көрсететін
+                  тәжірибелі тәлімгер.</p>
+            </div>
+         </div>
+
+         <!-- DEMO LESSON BLOCK -->
+         <div id="demo" class="demo-box">
+            <div class="demo-header">
+               <h3 data-i18n="demo_title">🎁 Демо сабақты көріп, сапасын тексеріңіз</h3>
+               <p data-i18n="demo_subtitle">Сабақты қай тілде көргіңіз келеді? Тілді таңдаңыз:</p>
+
+               <div class="demo-lang-switch">
+                  <button type="button" class="lang-btn active" onclick="switchDemoLang('kk', this)">🇰🇿
+                     Қазақша</button>
+                  <button type="button" class="lang-btn" onclick="switchDemoLang('ru', this)">🇷🇺 Русский</button>
+               </div>
+            </div>
+
+            <div class="demo-content">
+               <div class="demo-video-wrapper">
+                  <iframe id="demoVideo" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo Lesson"
+                     allowfullscreen></iframe>
+               </div>
+
+               <div class="demo-actions">
+                  <a id="demoPdfBtn" href="files/demo_kk.pdf" download class="demo-btn btn-pdf"
+                     data-i18n="demo_pdf_btn">
+                     📄 Демо PDF конспекті жүктеу
+                  </a>
+                  <a id="demoWaBtn"
+                     href="https://wa.me/77786713717?text=Саламатсыз ба! Демо сабақ бойынша сұрағым бар еді."
+                     target="_blank" class="demo-btn btn-wa" data-i18n="demo_wa_btn">
+                     💬 Демо бойынша сұрақ қою (WhatsApp)
+                  </a>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- PRICING SECTION -->
+   <section id="pricing">
+      <div class="pricing-container">
+
+         <div class="section-header">
+            <span class="section-badge" data-i18n="pricing_badge">Тарифтер</span>
+            <h2 class="glowing-title" data-i18n="pricing_title">Өзіңе қолайлы пакетті таңда</h2>
+            <p class="section-desc" data-i18n="pricing_desc">Дайындық деңгейіңе және мақсатыңа сай тарифті таңдап, оқуды
+               қазірден баста</p>
+         </div>
+
+         <div class="pricing-grid">
+
+            <!-- Tariff 1 -->
+            <div class="price-card">
+               <div class="card-top">
+                  <span class="tariff-badge">Lite</span>
+                  <h3 class="tariff-title" data-i18n="tariff_lite_title">Өздігінен</h3>
+                  <p class="tariff-desc" data-i18n="tariff_lite_desc">Тек өз бетінше дайындалғысы келетіндерге</p>
+                  <div class="price-box">
+                     <span class="price">3 900</span>
+                     <span class="currency">₸</span>
+                  </div>
+               </div>
+               <ul class="price-features">
+                  <li data-i18n="t1_f1">7-10 сынып барлық PDF материалдар</li>
+                  <li data-i18n="t1_f2">Формулалар мен конспектілер</li>
+                  <li class="disabled" data-i18n="t1_f3">Видео сабақтар</li>
+                  <li class="disabled" data-i18n="t1_f4">Онлайн сабақтар & Менторлық</li>
+               </ul>
+               <a href="#register" onclick="selectTariff('lite')" class="btn-price btn-price-outline"
+                  data-i18n="btn_choose">Таңдау</a>
+            </div>
+
+            <!-- Tariff 2 (POPULAR) -->
+            <div class="price-card popular">
+               <div class="popular-tag" data-i18n="popular_tag">Ең өтімді</div>
+               <div class="card-top">
+                  <span class="tariff-badge badge-gold">Standard</span>
+                  <h3 class="tariff-title" data-i18n="tariff_std_title">Стандарт</h3>
+                  <p class="tariff-desc" data-i18n="tariff_std_desc">Теория мен практиканы қатар меңгеруге</p>
+                  <div class="price-box">
+                     <span class="price">5 900</span>
+                     <span class="currency">₸</span>
+                  </div>
+               </div>
+               <ul class="price-features">
+                  <li data-i18n="t2_f1">Барлық PDF материалдар</li>
+                  <li data-i18n="t2_f2">Тақырыпты түсіндіру видеолары</li>
+                  <li data-i18n="t2_f3">Есеп талдау видео сабақтары</li>
+                  <li class="disabled" data-i18n="t2_f4">Аптасына 3 рет онлайн сабақ</li>
+               </ul>
+               <a href="#register" onclick="selectTariff('standard')" class="btn-price btn-price-green"
+                  data-i18n="btn_start">Бастау</a>
+            </div>
+
+            <!-- Tariff 3 (VIP) -->
+            <div class="price-card vip">
+               <div class="card-top">
+                  <span class="tariff-badge badge-vip">VIP</span>
+                  <h3 class="tariff-title" data-i18n="tariff_vip_title">Менторлық</h3>
+                  <p class="tariff-desc" data-i18n="tariff_vip_desc">Толық бақылау мен максимум нәтиже</p>
+                  <div class="price-box">
+                     <span class="price">28 000</span>
+                     <span class="currency" data-i18n="per_month">₸ / ай</span>
+                  </div>
+               </div>
+               <div class="limit-warning" data-i18n="limit_warning">⚠️ Орын саны шектеулі</div>
+               <ul class="price-features">
+                  <li data-i18n="t3_f1">Барлық PDF материалдар + Видеолар</li>
+                  <li data-i18n="t3_f2">Аптасына 3 рет онлайн сабақ</li>
+                  <li data-i18n="t3_f3">Жеке тәлімгер (Ментор) қолдауы</li>
+                  <li data-i18n="t3_f4">Прогресс бақылау & Жеке кеңестер</li>
+               </ul>
+               <a href="#register" onclick="selectTariff('vip')" class="btn-price btn-price-gold"
+                  data-i18n="btn_take_seat">Орын алу</a>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+
+   <!-- REGISTER SECTION -->
+   <section id="register">
+      <div class="register-container">
+         <div class="section-header">
+            <span class="section-badge" data-i18n="reg_badge">Тіркелу</span>
+            <h2 class="glowing-title" data-i18n="reg_title">Курсқа жазылу</h2>
+            <p class="section-desc" data-i18n="reg_desc">Тариф пен оқу тілін таңдап, менеджерге тікелей жазыңыз</p>
+         </div>
+
+         <form id="courseForm" class="register-form">
+            <!-- Оқу тілін таңдау -->
+            <div class="form-group">
+               <label data-i18n="label_lang">Оқу тілін таңдаңыз:</label>
+               <select id="languageSelect" required>
+                  <option value="kk" selected data-i18n="opt_kk">Қазақ тілі</option>
+                  <option value="ru" data-i18n="opt_ru">Русский язык</option>
+               </select>
+            </div>
+
+            <!-- Тарифті таңдау -->
+            <div class="form-group">
+               <label data-i18n="label_tariff">Тарифті таңдаңыз:</label>
+               <select id="tariffSelect" required>
+                  <option value="lite" data-i18n="opt_lite">Өздігінен (Lite) — 3 900 ₸</option>
+                  <option value="standard" selected data-i18n="opt_std">Интенсив (Standard) — 5 900 ₸</option>
+                  <option value="vip" data-i18n="opt_vip">Менторлық (VIP) — 28 000 ₸/ай</option>
+               </select>
+            </div>
+
+            <!-- WhatsApp-қа өту батырмасы -->
+            <button type="button" id="whatsappBtn" class="btn-submit" data-i18n="btn_whatsapp">
+               WhatsApp арқылы жазылу
+            </button>
+         </form>
+      </div>
+   </section>
+
+   <!-- FOOTER SECTION -->
+   <footer class="footer">
+      <div class="footer-container">
+         <div class="footer-brand">
+            <a href="#" class="logo-link">
+               <span class="brand-easy">Easy</span><span class="brand-math">Math</span>
+            </a>
+            <p data-i18n="footer_brand_desc">10-сынып Сыртқы емтиханына сапалы дайындық платформасы.</p>
+         </div>
+
+         <div class="footer-socials">
+            <h4 data-i18n="footer_socials_title">Әлеуметтік желілер:</h4>
+            <div class="social-links">
+               <a href="https://wa.me/77786713717" target="_blank" class="social-btn wa"
+                  aria-label="WhatsApp">WhatsApp</a>
+               <a href="https://instagram.com" target="_blank" class="social-btn insta"
+                  aria-label="Instagram">Instagram</a>
+               <a href="https://tiktok.com" target="_blank" class="social-btn tiktok" aria-label="TikTok">TikTok</a>
+               <a href="https://t.me" target="_blank" class="social-btn tg" aria-label="Telegram">Telegram</a>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>© 2026 EasyMath. <span data-i18n="footer_copy">Барлық құқықтар қорғалған.</span></p>
+      </div>
+   </footer>
+
+   <!-- JS -->
+   <script src="assets/js/main.js"></script>
+   <!-- Тек телефонда экран төменінде тұратын батырма -->
+   <a href="#register" class="mobile-fixed-btn" data-i18n="nav_cta">Жазылу</a>
+</body>
+
+</html>
