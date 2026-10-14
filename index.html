@@ -69,7 +69,6 @@
             </p>
             <div class="hero-btns">
                <a href="#pricing" class="btn-primary" data-i18n="hero_btn_main">Курсты таңдау</a>
-               <a href="#demo" class="btn-outline" data-i18n="hero_btn_demo">Демо сабақ</a>
             </div>
          </div>
 
@@ -289,45 +288,6 @@
          </div>
 
          <div class="format-grid">
-            <!-- Card 1 -->
-            <div class="format-card">
-               <div class="card-icon-box icon-blue">
-                  <svg viewBox="0 0 24 24" class="format-icon">
-                     <path
-                        d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
-                  </svg>
-               </div>
-               <h3 data-i18n="card1_title">7-10 сынып PDF материалдары</h3>
-               <p data-i18n="card1_desc">Әр тақырып бойынша арнайы дайындалған конспектілер, формулалар жинағы және
-                  конспект-дәптерлер.</p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="format-card">
-               <div class="card-icon-box icon-purple">
-                  <svg viewBox="0 0 24 24" class="format-icon">
-                     <path
-                        d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 9 7-4.5V16.5L12 12zm-7-4.5 7 4.5-7 4.5V7.5z" />
-                  </svg>
-               </div>
-               <h3 data-i18n="card2_title">Тақырыпты түсіндіру видеолары</h3>
-               <p data-i18n="card2_desc">Күрделі теориялық материалдарды қарапайым әрі түсінікті тілде талдайтын қысқа
-                  видео-сабақтар.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="format-card">
-               <div class="card-icon-box icon-gold">
-                  <svg viewBox="0 0 24 24" class="format-icon">
-                     <path
-                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 8 2 1.5-2 1.5V11zm-4-1.5L13.5 12 11 13.5V9.5zM7 8h2v8H7V8z" />
-                  </svg>
-               </div>
-               <h3 data-i18n="card3_title">Есеп талдау видео сабақтары</h3>
-               <p data-i18n="card3_desc">Әртүрлі деңгейдегі есептердің практикалық шешу жолдары мен лайфхактары
-                  көрсетілген бейнежазбалар.</p>
-            </div>
-
             <!-- Card 4 -->
             <div class="format-card">
                <div class="card-icon-box icon-teal">
@@ -368,39 +328,6 @@
             </div>
          </div>
 
-         <!-- DEMO LESSON BLOCK -->
-         <div id="demo" class="demo-box">
-            <div class="demo-header">
-               <h3 data-i18n="demo_title">🎁 Демо сабақты көріп, сапасын тексеріңіз</h3>
-               <p data-i18n="demo_subtitle">Сабақты қай тілде көргіңіз келеді? Тілді таңдаңыз:</p>
-
-               <div class="demo-lang-switch">
-                  <button type="button" class="lang-btn active" onclick="switchDemoLang('kk', this)">🇰🇿
-                     Қазақша</button>
-                  <button type="button" class="lang-btn" onclick="switchDemoLang('ru', this)">🇷🇺 Русский</button>
-               </div>
-            </div>
-
-            <div class="demo-content">
-               <div class="demo-video-wrapper">
-                  <iframe id="demoVideo" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo Lesson"
-                     allowfullscreen></iframe>
-               </div>
-
-               <div class="demo-actions">
-                  <a id="demoPdfBtn" href="files/demo_kk.pdf" download class="demo-btn btn-pdf"
-                     data-i18n="demo_pdf_btn">
-                     📄 Демо PDF конспекті жүктеу
-                  </a>
-                  <a id="demoWaBtn"
-                     href="https://wa.me/77786713717?text=Саламатсыз ба! Демо сабақ бойынша сұрағым бар еді."
-                     target="_blank" class="demo-btn btn-wa" data-i18n="demo_wa_btn">
-                     💬 Демо бойынша сұрақ қою (WhatsApp)
-                  </a>
-               </div>
-            </div>
-         </div>
-
       </div>
    </section>
 
@@ -415,71 +342,87 @@
                қазірден баста</p>
          </div>
 
+         <!-- Жоғарыдағы курс туралы шағын ақпарат блогы -->
+         <div class="pricing-info-banner" style="background: rgba(255, 215, 0, 0.05); border: 1px solid rgba(255, 215, 0, 0.2); border-radius: 12px; padding: 20px; margin-bottom: 30px; text-align: center;">
+            <h3 style="color: var(--text-gold, #ffd700); margin-bottom: 8px; font-size: 1.1rem;">💡 Барлық пакеттерге не кіреді?</h3>
+            <p style="color: var(--text-muted, #a0aec0); font-size: 0.95rem; margin: 0;">
+               Таңдалған пакет мерзіміне қарамастан, барлық оқушыларға <strong>аптасына 3 рет онлайн сабақ</strong>, 
+               <strong>прогресс бақылау мен кеңестер</strong> және <strong>жеке тәлімгер (ментор) қолдауы</strong> толық көлемде беріледі!
+            </p>
+         </div>
+
          <div class="pricing-grid">
 
-            <!-- Tariff 1 -->
+            <!-- Tariff 1: 1 айлық -->
             <div class="price-card">
                <div class="card-top">
-                  <span class="tariff-badge">Lite</span>
-                  <h3 class="tariff-title" data-i18n="tariff_lite_title">Өздігінен</h3>
-                  <p class="tariff-desc" data-i18n="tariff_lite_desc">Тек өз бетінше дайындалғысы келетіндерге</p>
+                  <span class="tariff-badge">1 Ай</span>
+                  <h3 class="tariff-title">Бір айлық пакет</h3>
+                  <p class="tariff-desc">Бастапқы деңгейді сынап көруге арналған</p>
                   <div class="price-box">
-                     <span class="price">3 900</span>
+                     <span class="price">22 400</span>
                      <span class="currency">₸</span>
                   </div>
                </div>
                <ul class="price-features">
-                  <li data-i18n="t1_f1">7-10 сынып барлық PDF материалдар</li>
-                  <li data-i18n="t1_f2">Формулалар мен конспектілер</li>
-                  <li class="disabled" data-i18n="t1_f3">Видео сабақтар</li>
-                  <li class="disabled" data-i18n="t1_f4">Онлайн сабақтар & Менторлық</li>
+                  <li>Аптасына 3 рет онлайн сабақ</li>
+                  <li>Прогресс бақылау мен кеңестер</li>
+                  <li>Жеке тәлімгер (Ментор) қолдауы</li>
                </ul>
-               <a href="#register" onclick="selectTariff('lite')" class="btn-price btn-price-outline"
-                  data-i18n="btn_choose">Таңдау</a>
+               <!-- Сіз үнемдейсіз блогы -->
+               <div class="saving-info" style="margin: 15px 0; font-size: 0.9rem; color: #a0aec0; text-align: center;">
+                  Базовый тариф
+               </div>
+               <a href="#register" onclick="selectTariff('1month')" class="btn-price btn-price-outline">Таңдау</a>
             </div>
 
-            <!-- Tariff 2 (POPULAR) -->
+            <!-- Tariff 2 (POPULAR): 2 айлық -->
             <div class="price-card popular">
-               <div class="popular-tag" data-i18n="popular_tag">Ең өтімді</div>
+               <div class="popular-tag">Тиімді</div>
                <div class="card-top">
-                  <span class="tariff-badge badge-gold">Standard</span>
-                  <h3 class="tariff-title" data-i18n="tariff_std_title">Стандарт</h3>
-                  <p class="tariff-desc" data-i18n="tariff_std_desc">Теория мен практиканы қатар меңгеруге</p>
+                  <span class="tariff-badge badge-gold">2 Ай</span>
+                  <h3 class="tariff-title">Екі айлық пакет</h3>
+                  <p class="tariff-desc">Тұрақты дайындық пен ұзақ мерзімді нәтиже</p>
                   <div class="price-box">
-                     <span class="price">5 900</span>
+                     <span class="price">40 000</span>
                      <span class="currency">₸</span>
                   </div>
                </div>
                <ul class="price-features">
-                  <li data-i18n="t2_f1">Барлық PDF материалдар</li>
-                  <li data-i18n="t2_f2">Тақырыпты түсіндіру видеолары</li>
-                  <li data-i18n="t2_f3">Есеп талдау видео сабақтары</li>
-                  <li class="disabled" data-i18n="t2_f4">Аптасына 3 рет онлайн сабақ</li>
+                  <li>Аптасына 3 рет онлайн сабақ</li>
+                  <li>Прогресс бақылау мен кеңестер</li>
+                  <li>Жеке тәлімгер (Ментор) қолдауы</li>
                </ul>
-               <a href="#register" onclick="selectTariff('standard')" class="btn-price btn-price-green"
-                  data-i18n="btn_start">Бастау</a>
+               <!-- Сіз үнемдейсіз блогы -->
+               <div class="saving-info" style="margin: 15px 0; font-size: 0.9rem; color: #4ade80; font-weight: 600; text-align: center;">
+                  ✨ Сіз үнемдейсіз: 4 800 ₸
+               </div>
+               <a href="#register" onclick="selectTariff('2months')" class="btn-price btn-price-green">Бастау</a>
             </div>
 
-            <!-- Tariff 3 (VIP) -->
+            <!-- Tariff 3 (VIP): 4 айлық -->
             <div class="price-card vip">
                <div class="card-top">
-                  <span class="tariff-badge badge-vip">VIP</span>
-                  <h3 class="tariff-title" data-i18n="tariff_vip_title">Менторлық</h3>
-                  <p class="tariff-desc" data-i18n="tariff_vip_desc">Толық бақылау мен максимум нәтиже</p>
+                  <span class="tariff-badge badge-vip">4 Ай</span>
+                  <h3 class="tariff-title">Төрт айлық пакет</h3>
+                  <p class="tariff-desc">Толық курс пен максималды нәтиже</p>
                   <div class="price-box">
-                     <span class="price">28 000</span>
-                     <span class="currency" data-i18n="per_month">₸ / ай</span>
+                     <span class="price">78 200</span>
+                     <span class="currency">₸</span>
                   </div>
                </div>
-               <div class="limit-warning" data-i18n="limit_warning">⚠️ Орын саны шектеулі</div>
+               <div class="limit-warning">🔥 Ең үлкен үнемдеу</div>
                <ul class="price-features">
-                  <li data-i18n="t3_f1">Барлық PDF материалдар + Видеолар</li>
-                  <li data-i18n="t3_f2">Аптасына 3 рет онлайн сабақ</li>
-                  <li data-i18n="t3_f3">Жеке тәлімгер (Ментор) қолдауы</li>
-                  <li data-i18n="t3_f4">Прогресс бақылау & Жеке кеңестер</li>
+                  <li>Аптасына 3 рет онлайн сабақ</li>
+                  <li>Прогресс бақылау мен кеңестер</li>
+                  <li>Жеке тәлімгер (Ментор) қолдауы</li>
+                  <li>Толық емтиханға дейінгі сүйемелдеу</li>
                </ul>
-               <a href="#register" onclick="selectTariff('vip')" class="btn-price btn-price-gold"
-                  data-i18n="btn_take_seat">Орын алу</a>
+               <!-- Сіз үнемдейсіз блогы -->
+               <div class="saving-info" style="margin: 15px 0; font-size: 0.9rem; color: #fbbf24; font-weight: 600; text-align: center;">
+                  🔥 Сіз үнемдейсіз: 11 400 ₸
+               </div>
+               <a href="#register" onclick="selectTariff('4months')" class="btn-price btn-price-gold">Орын алу</a>
             </div>
 
          </div>
@@ -510,9 +453,9 @@
             <div class="form-group">
                <label data-i18n="label_tariff">Тарифті таңдаңыз:</label>
                <select id="tariffSelect" required>
-                  <option value="lite" data-i18n="opt_lite">Өздігінен (Lite) — 3 900 ₸</option>
-                  <option value="standard" selected data-i18n="opt_std">Интенсив (Standard) — 5 900 ₸</option>
-                  <option value="vip" data-i18n="opt_vip">Менторлық (VIP) — 28 000 ₸/ай</option>
+                  <option value="1month" selected>1 айлық пакет — 22 400 ₸</option>
+                  <option value="2months">Екі айлық пакет — 40 000 ₸</option>
+                  <option value="4months">Төрт айлық пакет — 78 200 ₸</option>
                </select>
             </div>
 
@@ -539,7 +482,7 @@
             <div class="social-links">
                <a href="https://wa.me/77786713717" target="_blank" class="social-btn wa"
                   aria-label="WhatsApp">WhatsApp</a>
-               <a href="https://instagram.com" target="_blank" class="social-btn insta"
+               <a href="https://www.instagram.com/easymath.lab/" target="_blank" class="social-btn insta"
                   aria-label="Instagram">Instagram</a>
                <a href="https://tiktok.com" target="_blank" class="social-btn tiktok" aria-label="TikTok">TikTok</a>
                <a href="https://t.me" target="_blank" class="social-btn tg" aria-label="Telegram">Telegram</a>
