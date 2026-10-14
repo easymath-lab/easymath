@@ -1,6 +1,6 @@
 :root {
-    --primary-blue: #0f172a;
-    --primary-blue-strong: #070f2d;
+    --primary-blue: #0b3d91;
+    --primary-blue-strong: #07204a;
     --secondary-blue: #2563eb;
     --accent-gold: #ffb703;
     --accent-gold-dark: #d98c00;
@@ -8,8 +8,8 @@
     --card-bg: #ffffff;
     --muted: #64748b;
     --border: #e2e8f0;
-    --shadow-soft: 0 24px 60px rgba(15, 23, 42, 0.08);
-    --shadow-lg: 0 18px 40px rgba(15, 23, 42, 0.12);
+    --shadow-soft: 0 24px 60px rgba(11, 61, 145, 0.08);
+    --shadow-lg: 0 18px 40px rgba(11, 61, 145, 0.12);
     --font-heading: 'Montserrat', 'Arial', sans-serif;
     --font-body: 'Ubuntu Mono', 'Courier New', monospace;
 }
@@ -68,7 +68,7 @@ header {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(14px);
     border-bottom: 1px solid rgba(148, 163, 184, 0.2);
-    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.04);
+    box-shadow: 0 12px 28px rgba(11, 61, 145, 0.04);
     padding: 1rem 7%;
     display: flex;
     align-items: center;
@@ -170,9 +170,9 @@ header {
 }
 
 .lang-btn.active {
-    background: var(--primary-blue);
+    background: var(--secondary-blue);
     color: #fff;
-    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.18);
+    box-shadow: 0 10px 20px rgba(11, 61, 145, 0.18);
 }
 
 .lang-btn:hover:not(.active) {
@@ -300,7 +300,7 @@ header {
 
 .math-card {
     width: min(100%, 420px);
-    background: linear-gradient(135deg, #0d1b4a 0%, #111827 100%);
+    background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--primary-blue-strong) 100%);
     color: #fff;
     border-radius: 28px;
     padding: 1.7rem;
@@ -484,7 +484,7 @@ header {
 
 .mentor-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 28px 56px rgba(15, 23, 42, 0.12);
+    box-shadow: 0 28px 56px rgba(11, 61, 145, 0.12);
 }
 
 .mentor-img-box {
@@ -509,7 +509,7 @@ header {
     background: rgba(255, 255, 255, 0.88);
     display: grid;
     place-items: center;
-    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+    box-shadow: 0 12px 30px rgba(11, 61, 145, 0.15);
     transition: transform 0.2s ease;
 }
 
@@ -678,7 +678,7 @@ header {
 .format-card:hover {
     transform: translateY(-5px);
     border-color: rgba(37, 99, 235, 0.25);
-    box-shadow: 0 26px 44px rgba(15, 23, 42, 0.06);
+    box-shadow: 0 26px 44px rgba(11, 61, 145, 0.06);
 }
 
 .card-icon-box {
@@ -697,7 +697,7 @@ header {
 
 .icon-teal { background: rgba(13, 148, 136, 0.1); fill: #0d9488; }
 .icon-orange { background: rgba(234, 88, 12, 0.12); fill: #ea580c; }
-.icon-blue-dark { background: rgba(15, 23, 42, 0.08); fill: var(--primary-blue); }
+.icon-blue-dark { background: rgba(11, 61, 145, 0.08); fill: var(--primary-blue); }
 
 .format-card h3 {
     font-size: 1.25rem;
@@ -751,7 +751,7 @@ header {
 
 .price-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 26px 48px rgba(15, 23, 42, 0.09);
+    box-shadow: 0 26px 48px rgba(11, 61, 145, 0.09);
 }
 
 .price-card.popular {
@@ -859,7 +859,7 @@ header {
     font-size: 0.82rem;
     border-radius: 12px;
     padding: 0.7rem 0.8rem;
-    background: rgba(15, 23, 42, 0.04);
+    background: rgba(11, 61, 145, 0.04);
     color: var(--muted);
     margin-bottom: 1rem;
 }
@@ -897,7 +897,7 @@ header {
 
 .btn-price-outline {
     background: transparent;
-    border-color: rgba(15, 23, 42, 0.15);
+    border-color: rgba(11, 61, 145, 0.15);
     color: var(--primary-blue);
 }
 
@@ -962,7 +962,7 @@ header {
 }
 
 .footer {
-    background: var(--primary-blue-strong);
+    background: var(--secondary-blue);
     color: #e2e8f0;
     padding: 3rem 7% 1.2rem;
 }
@@ -1069,7 +1069,7 @@ header {
         font-weight: 900;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        box-shadow: 0 16px 38px rgba(15, 23, 42, 0.18);
+        box-shadow: 0 16px 38px rgba(11, 61, 145, 0.18);
     }
 
     body {
